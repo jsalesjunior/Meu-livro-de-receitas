@@ -1,4 +1,4 @@
-Primeiros passos com Git e GitHub
+# Primeiros passos com Git e GitHub
 
 ## Principais Comandos do GIT
 - git status
