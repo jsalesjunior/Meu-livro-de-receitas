@@ -1,4 +1,9 @@
-Livro de Receitas
+Primeiros passos com Git e GitHub
 
-Olá bem vindo ao meu livro de receitas
- - Strogonofre de Frango
+## Principais Comandos do GIT
+- git status
+- git clone
+- git add 
+- git commit -m "Anotações"
+- git push
+- git pull
