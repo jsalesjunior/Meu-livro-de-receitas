@@ -1,8 +1,8 @@
 ## Removendo arquivos e pastas do Repositótio do GitHub
 
 #### Remover o arquivo/diretório dos arquivos monitorados. Perceba que o arquivo não foi excluído, somente removido dos arquivos trackeados.
--  git rm -rf --cached folder1/
-Se for um arquivo, vc não adicionará o -rf nem a barra no final.
+- git rm -rf --cached folder1/
+- Se for um arquivo, vc não adicionará o -rf nem a barra no final.
 
 #### Adicionar o arquivo/diretório no .gitignore 
  - echo "folder1/" > .gitignore
