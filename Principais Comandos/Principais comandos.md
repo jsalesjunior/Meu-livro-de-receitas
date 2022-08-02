@@ -12,32 +12,32 @@
 - C:/Users/user/my_project
 
 - Acessar o Git BASH, navegar até a pasta: cd /Users/user/my_project
-- Iniciar o repositório do git: git init
+- Iniciar o repositório do git: **git init**
 - Irá criar uma pasta .git
-- Para apagar um repositório execute: rm -rf .git
+- Para apagar um repositório execute: **rm -rf .git**
 
 ## Principais comandos:
 
-## git config
-Quando você está utilizando o Git pela primeira vez ou com uma instalação nova, em um projeto colaborativo, esse comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit.
+### git config
+- Quando você está utilizando o Git pela primeira vez ou com uma instalação nova, em um projeto colaborativo, esse comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit.
 
 - git config –global user.name “Seu nome”
 - git config –global user.email “Seu email”
 
-## git remote add <nomecurto> <url>
+### git remote add *nome_curto* *url*
 - Estabelece uma conexão entre seu repositório local e um repositório remoto.
-## git clone <https://url-do-link>
+### git clone *url-do-git-hub*
 - Clona um repositorio do GitHub para sua máquina
-## git checkout <nome-da-ramificação>
+### git checkout *nome-da-ramificação*
 - Muda de branch
-## git status
+### git status
 - Verificar arquivos modificados: 
-## git add <arquivo>
+### git add *nome-do-arquivo*
 - Para incluír alterações para o próximo commit 
-## git commit -m "mensagem explicando a mudança no código"
+### git commit -m "mensagem explicando a mudança no código"
 - Define um ponto de verificação 
-## git push <remote> <nome-do-branch>
+### git push origin *nome-do-branch*
 - Enviar as alterações para o servidor remoto
   
-## git pull <URL>
+### git pull *URL*
 - O comando Git pull baixa o conteúdo (não os metadados) do que foi alterado no repositório remoto para o seu repositório local e imediatamente atualiza seu contreúdo para a última versão.
